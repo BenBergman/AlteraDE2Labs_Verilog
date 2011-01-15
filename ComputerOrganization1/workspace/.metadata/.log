@@ -1,0 +1,16 @@
+!SESSION 2010-12-01 13:32:16.422 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-12-01 13:35:42.143
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-12-01 13:35:43.490
+!MESSAGE com.altera.systemconsole.internal.plugin.jtag.aji.AJICable.initIds0()V
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-12-01 13:35:43.506
+!MESSAGE Done Initializing System Console Model

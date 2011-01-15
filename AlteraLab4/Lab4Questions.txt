@@ -1,0 +1,12 @@
+Part I
+1.  25 LEs are used in my 16-bit counter.
+    Fmax is 420.17 MHz.
+5.  The RTL of my circuit shows a D-flipflop with 2, 2 bit multiplexers cascaded into the D input instead of using synchronous T-flipflops.
+
+PartII
+While the number of LEs and the Fmax have stayed the same, the T-flipflop is now modeled very similar to before but with an adder feeding the multiplexers.
+
+PartIII
+The version using the LPM T-flipflop seems to be physically constructed the same as that which was made with the code from PartII.
+
+

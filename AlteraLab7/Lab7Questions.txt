@@ -1,0 +1,5 @@
+Part2
+User defined allows the more condensed state storage but using auto or one-hot uses the less efficient coding.
+
+Part3
+One 8-bit shift register would work, but parallel (or complicated serial) input would be necessary.

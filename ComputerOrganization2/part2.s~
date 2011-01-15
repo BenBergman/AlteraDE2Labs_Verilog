@@ -1,0 +1,19 @@
+.include "nios_macros.s"
+
+.text
+.equ TEST_NUM, 0x00abcdef /* The number to be tested */
+
+.global _start
+_start:
+
+  movia   r1, 0xffff
+  ldbuio  r0, 1(r1)
+
+  stbio   r2, 0x11(r1)
+
+END:
+  br      END /* Wait here once the program has completed */
+
+.end
+
+

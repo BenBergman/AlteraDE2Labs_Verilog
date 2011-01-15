@@ -1,0 +1,3 @@
+Part III
+2.  "and r3, r7, r16" is a bit-wise and function that ands r7 and r16 and stores the result in r3
+    "sra r7, r7, r3" shifts r7 right by the amount specified by r3[4:0] and is stored back in r7

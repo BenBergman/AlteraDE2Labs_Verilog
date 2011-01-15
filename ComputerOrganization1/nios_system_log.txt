@@ -1,0 +1,70 @@
+Altera SOPC Builder Version 9.12 Build 350
+Copyright (c) 1999-2009 Altera Corporation.  All rights reserved.
+
+
+No .sopc_builder configuration file(!)
+# 2010.11.18 16:27:07 (*) mk_custom_sdk starting
+# 2010.11.18 16:27:07 (*) Reading project C:/Users/ben/Documents/My Dropbox/School/ECE 4740/ComputerOrganization1/nios_system.ptf.
+
+# 2010.11.18 16:27:07 (*) Finding all CPUs
+# 2010.11.18 16:27:07 (*) Finding all available components
+# 2010.11.18 16:27:07 (*) Reading C:/Users/ben/Documents/My Dropbox/School/ECE 4740/ComputerOrganization1/.sopc_builder/install.ptf
+
+# 2010.11.18 16:27:07 (*) Found 67 components
+
+# 2010.11.18 16:27:08 (*) Finding all peripherals
+
+# 2010.11.18 16:27:08 (*) Finding software components
+
+# 2010.11.18 16:27:08 (*) (Legacy SDK Generation Skipped)
+# 2010.11.18 16:27:08 (*) (All TCL Script Generation Skipped)
+# 2010.11.18 16:27:08 (*) (No Libraries Built)
+# 2010.11.18 16:27:08 (*) (Contents Generation Skipped)
+# 2010.11.18 16:27:08 (*) mk_custom_sdk finishing
+
+# 2010.11.18 16:27:08 (*) Starting generation for system: nios_system.
+
+.
+.
+
+# 2010.11.18 16:27:09 (*) Running Generator Program for cpu_0
+
+# 2010.11.18 16:27:12 (*) Starting Nios II generation
+# 2010.11.18 16:27:12 (*)   Checking for plaintext license.
+# 2010.11.18 16:27:12 (*)   Couldn't query license setup in Quartus directory c:/altera/91sp2/quartus
+# 2010.11.18 16:27:12 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+# 2010.11.18 16:27:12 (*)   LM_LICENSE_FILE environment variable is empty
+# 2010.11.18 16:27:12 (*)   Plaintext license not found.
+# 2010.11.18 16:27:12 (*)   No license required to generate encrypted Nios II/e.
+
+# 2010.11.18 16:27:12 (*)   Getting CPU configuration settings
+# 2010.11.18 16:27:12 (*)   Elaborating CPU configuration settings
+# 2010.11.18 16:27:12 (*)   Creating all objects for CPU
+# 2010.11.18 16:27:14 (*)   Generating HDL from CPU objects
+# 2010.11.18 16:27:14 (*)   Creating plain-text HDL
+# 2010.11.18 16:27:18 (*) Done Nios II generation
+
+# 2010.11.18 16:27:18 (*) Running Generator Program for onchip_memory2_0
+
+
+# 2010.11.18 16:27:19 (*) Making arbitration and system (top) modules.
+
+# 2010.11.18 16:27:21 (*) Generating Quartus symbol for top level: nios_system
+
+# 2010.11.18 16:27:21 (*) Generating Symbol C:/Users/ben/Documents/My Dropbox/School/ECE 4740/ComputerOrganization1/nios_system.bsf
+
+# 2010.11.18 16:27:21 (*) Creating command-line system-generation script: C:/Users/ben/Documents/My Dropbox/School/ECE 4740/ComputerOrganization1/nios_system_generation_script
+
+# 2010.11.18 16:27:22 (*) Running setup for HDL simulator: modelsim
+
+
+# 2010.11.18 16:27:22 (*) Completed generation for system: nios_system.
+# 2010.11.18 16:27:22 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:
+  SOPC Builder database : C:/Users/ben/Documents/My Dropbox/School/ECE 4740/ComputerOrganization1/nios_system.ptf 
+  System HDL Model : C:/Users/ben/Documents/My Dropbox/School/ECE 4740/ComputerOrganization1/nios_system.v 
+  System Generation Script : C:/Users/ben/Documents/My Dropbox/School/ECE 4740/ComputerOrganization1/nios_system_generation_script 
+
+# 2010.11.18 16:27:22 (*) SUCCESS: SYSTEM GENERATION COMPLETED.
+
+
+Press 'Exit' to exit.

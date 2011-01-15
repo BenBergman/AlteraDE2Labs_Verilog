@@ -1,0 +1,22 @@
+(header "symbol" (version "1.1"))
+(symbol
+(rect 0 0 120 80)
+(text "nios_system" (rect 4 0 87 16)(font "Arial" (font_size 10)))
+(text "inst" (rect 4 64 28 80)(font "Arial"))
+(port
+(pt 0 32)
+(input)
+(text "clk_0 " (rect 0 0 25 16)(font "Arial" (font_size 8)))
+(text "clk_0 " (rect 20 25 45 41)(font "Arial" (font_size 8)))
+(line (pt 0 32)(pt 16 32)(line_width 1))
+)
+(port
+(pt 0 48)
+(input)
+(text "reset_n " (rect 0 0 36 16)(font "Arial" (font_size 8)))
+(text "reset_n " (rect 20 41 56 57)(font "Arial" (font_size 8)))
+(line (pt 0 48)(pt 16 48)(line_width 1))
+)
+(drawing
+(rectangle (rect 16 16 104 64)(line_width 1)))
+)

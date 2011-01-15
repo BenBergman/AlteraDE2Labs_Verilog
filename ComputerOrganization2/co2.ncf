@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nios2_config>
+    <system>
+        <system_ptf filepath="true">..\..\..\..\..\..\..\altera\91sp2\University_Program\NiosII_Computer_Systems\DE2\DE2_Basic_Computer\nios_system.ptf</system_ptf>
+        <sample_system_title>DE2 Basic Computer</sample_system_title>
+        <system_sof filepath="true">..\..\..\..\..\..\..\altera\91sp2\University_Program\NiosII_Computer_Systems\DE2\DE2_Basic_Computer\DE2_Basic_Computer.sof</system_sof>
+        <cable>USB-Blaster [USB-0]</cable>
+        <processor JTAGHubInstanceID="0">CPU</processor>
+        <elf_section name="text">
+            <memory_device>SDRAM/s1</memory_device>
+            <memory_start_offset>0</memory_start_offset>
+        </elf_section>
+        <elf_section name="data">
+            <memory_device>SDRAM/s1</memory_device>
+            <memory_start_offset>0</memory_start_offset>
+        </elf_section>
+        <terminal JTAGHubInstanceID="0">JTAG_UART</terminal>
+    </system>
+    <program>
+        <type>ASSEMBLY</type>
+        <options>
+            <source_files>
+                <source_file filepath="true">part2.s</source_file>
+            </source_files>
+            <start_symbol>_start</start_symbol>
+        </options>
+    </program>
+</nios2_config>

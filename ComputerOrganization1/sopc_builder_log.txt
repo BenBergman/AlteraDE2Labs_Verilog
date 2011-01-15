@@ -1,0 +1,5 @@
+Info: Saving your IP search path in C:\Users\ben\.altera.quartus\ip\9.1sp2\ip_search_path\user_components.ipx
+Info: Using factories: CuspFactory, ImportFactory, DSPBuilderFactory, EmbeddedSwTclDriverFactory, JarFactory, TclModuleFactory, SopcXmlFactory, MegaVariationFactory, BeanElementFactory, LegacyFactory, DDRLegacyFactory, PresetFactory
+Progress: (0) searching C:/Users/ben/Documents/My Dropbox/School/ECE 4740/ComputerOrganization1/9.1sp2 (command line switch)
+Info: C:/Users/ben/Documents/My Dropbox/School/ECE 4740/ComputerOrganization1/9.1sp2 matched 1 files in 0.00 seconds
+Info: Found 0 components

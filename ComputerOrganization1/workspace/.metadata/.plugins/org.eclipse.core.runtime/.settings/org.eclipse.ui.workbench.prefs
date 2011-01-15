@@ -1,0 +1,3 @@
+#Wed Dec 01 13:35:42 CST 2010
+eclipse.preferences.version=1
+ENABLED_DECORATORS=com.altera.sbtgui.project.decorator.bsp\:true,com.altera.sbtgui.project.nios2builddecorator\:true,org.eclipse.cdt.ui.indexedFiles\:false,org.eclipse.mylyn.context.ui.decorator.interest\:true,org.eclipse.mylyn.tasks.ui.decorators.task\:true,org.eclipse.mylyn.team.ui.changeset.decorator\:true,org.eclipse.team.cvs.ui.decorator\:true,org.eclipse.ui.LinkedResourceDecorator\:true,org.eclipse.ui.ContentTypeDecorator\:true,

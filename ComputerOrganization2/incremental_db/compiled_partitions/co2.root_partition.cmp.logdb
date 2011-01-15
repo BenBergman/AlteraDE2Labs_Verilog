@@ -1,0 +1,4 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,nios_system:CPU|cpu_0:the_cpu_0|cpu_0_mult_cell:the_cpu_0_mult_cell|altmult_add:the_altmult_add_part_1|mult_add_4cr2:auto_generated|ded_mult_2o81:ded_mult1|mac_out3,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,nios_system:CPU|cpu_0:the_cpu_0|cpu_0_mult_cell:the_cpu_0_mult_cell|altmult_add:the_altmult_add_part_2|mult_add_6cr2:auto_generated|ded_mult_2o81:ded_mult1|mac_out3,
+PORT_SWAPPING,PORT_SWAPPING_FINISHED,nios_system:CPU|cpu_0:the_cpu_0|cpu_0_mult_cell:the_cpu_0_mult_cell|altmult_add:the_altmult_add_part_1|mult_add_4cr2:auto_generated|ded_mult_2o81:ded_mult1|mac_mult2,

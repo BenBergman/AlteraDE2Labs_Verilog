@@ -1,0 +1,21 @@
+module port_n (Clock, SW, wren, out);
+  input [15:0] SW;
+  input Clock;
+  output reg [15:0] out;
+  input wren;
+
+
+
+  always @ (posedge Clock) begin
+    case (ADDR[2:0])
+      3'b000: HEX0 = data[6:0];
+      3'b001: HEX1 = data[6:0];
+      3'b010: HEX2 = data[6:0];
+      3'b011: HEX3 = data[6:0];
+      3'b100: HEX4 = data[6:0];
+      3'b101: HEX5 = data[6:0];
+      3'b110: HEX6 = data[6:0];
+      3'b111: HEX7 = data[6:0];
+    endcase
+  end
+endmodule

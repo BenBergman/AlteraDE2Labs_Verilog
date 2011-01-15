@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="CO_Lab1">
+		<CBX_INST_ENTRY INSTANCE_NAME="|part1|nios_system:CPU0|cpu_0:the_cpu_0|cpu_0_nios2_oci:the_cpu_0_nios2_oci|cpu_0_nios2_oci_im:the_cpu_0_nios2_oci_im|cpu_0_traceram_lpm_dram_bdp_component_module:cpu_0_traceram_lpm_dram_bdp_component|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_e502.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|part1|nios_system:CPU0|cpu_0:the_cpu_0|cpu_0_nios2_oci:the_cpu_0_nios2_oci|cpu_0_nios2_ocimem:the_cpu_0_nios2_ocimem|cpu_0_ociram_lpm_dram_bdp_component_module:cpu_0_ociram_lpm_dram_bdp_component|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_c572.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|part1|nios_system:CPU0|cpu_0:the_cpu_0|cpu_0_rf_module:cpu_0_rf|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_1l22.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|part1|nios_system:CPU0|onchip_memory2_0:the_onchip_memory2_0|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_c4c1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

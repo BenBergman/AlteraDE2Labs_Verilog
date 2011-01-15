@@ -1,0 +1,7 @@
+Part3
+Differences:
+When writing to the RAM, the first clock pulse shows the register's old value and the second shows the new value.
+
+Part6
+4. Differences:
+The output displayed is the input when "write enable" is asserted.

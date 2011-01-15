@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="co2">
+		<CBX_INST_ENTRY INSTANCE_NAME="|part1|nios_system:CPU|cpu_0:the_cpu_0|cpu_0_nios2_oci:the_cpu_0_nios2_oci|cpu_0_nios2_oci_im:the_cpu_0_nios2_oci_im|cpu_0_traceram_lpm_dram_bdp_component_module:cpu_0_traceram_lpm_dram_bdp_component|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_e502.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|part1|nios_system:CPU|cpu_0:the_cpu_0|cpu_0_nios2_oci:the_cpu_0_nios2_oci|cpu_0_nios2_ocimem:the_cpu_0_nios2_ocimem|cpu_0_ociram_lpm_dram_bdp_component_module:cpu_0_ociram_lpm_dram_bdp_component|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_c572.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|part1|nios_system:CPU|cpu_0:the_cpu_0|cpu_0_register_bank_a_module:cpu_0_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_irf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|part1|nios_system:CPU|cpu_0:the_cpu_0|cpu_0_mult_cell:the_cpu_0_mult_cell|altmult_add:the_altmult_add_part_1" CBX_FILE_NAME="mult_add_4cr2.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|part1|nios_system:CPU|onchip_memory2_0:the_onchip_memory2_0|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_c4c1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|part1|nios_system:CPU|cpu_0:the_cpu_0|cpu_0_ic_data_module:cpu_0_ic_data|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_qed1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|part1|nios_system:CPU|cpu_0:the_cpu_0|cpu_0_ic_tag_module:cpu_0_ic_tag|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_f5g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|part1|nios_system:CPU|cpu_0:the_cpu_0|cpu_0_mult_cell:the_cpu_0_mult_cell|altmult_add:the_altmult_add_part_2" CBX_FILE_NAME="mult_add_6cr2.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|part1|nios_system:CPU|cpu_0:the_cpu_0|cpu_0_register_bank_b_module:cpu_0_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_jrf1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

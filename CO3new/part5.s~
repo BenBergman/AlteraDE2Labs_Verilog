@@ -1,0 +1,90 @@
+/* Program that finds the largest number in a list of integers	    */
+
+.equ LIST, 0x500		  /* Starting address of the list		    */
+.equ ASCII1, 0x32
+.equ ASCII2, 0x34
+.equ ASCII3, 0x36
+.equ ASCII4, 0x38
+.equ ASCII5, 0x31
+.equ ASCII6, 0x33
+.equ ASCII7, 0x35
+.equ ASCII8, 0x37
+
+.equ BCD_MASK, 0x0F
+
+.equ BCD_PACKED, 0x1000
+
+.global _start
+_start:
+  
+  movia r4, ASCII8
+  and r4, r4, BCD_MASK
+
+  slli r4, r4, 4  
+
+  movia r5, ASCII7
+  and r5, r5, BCD_MASK
+  or r4, r4, r5
+
+  slli r4, r4, 4
+
+  movia r5, ASCII6
+  and r5, r5, BCD_MASK
+  or r4, r4, r5
+
+  slli r4, r4, 4  
+
+  movia r5, ASCII5
+  and r5, r5, BCD_MASK
+  or r4, r4, r5
+
+  slli r4, r4, 4  
+
+  movia r5, ASCII4
+  and r5, r5, BCD_MASK
+  or r4, r4, r5
+
+  slli r4, r4, 4  
+
+  movia r5, ASCII3
+  and r5, r5, BCD_MASK
+  or r4, r4, r5
+
+  slli r4, r4, 4  
+
+  movia r5, ASCII2
+  and r5, r5, BCD_MASK
+  or r4, r4, r5
+
+  slli r4, r4, 4  
+
+  movia r5, ASCII1
+  and r5, r5, BCD_MASK
+  or r4, r4, r5
+
+
+
+
+	movia	r4, LIST	  /* r4 points to the start of the list	    */
+	ldw	r5, 4(r4)	  /* r5 is a counter, initialize it with n    */
+	addi	r6, r4, 8	  /* r6 points to the first number		    */
+ 	ldw	r7, (r6)	  /* r7 holds the largest number found so far */
+		
+LOOP:
+	subi	r5, r5, 1	  /* Decrement the counter 			    */
+	beq	r5, r0, DONE  /* Finished if r5 is equal to 0		    */
+	addi	r6, r6, 4	  /* Increment the list pointer		    */
+	ldw	r8, (r6)	  /* Get the next number			    */
+	bge	r7, r8, LOOP  /* Check if larger number found		    */
+	add	r7, r8, r0	  /* Update the largest number found	    */
+	br	LOOP
+DONE:
+	stw	r7, (r4)	  /* Store the largest number into RESULT	    */
+
+STOP:	
+	br	STOP		  /* Remain here if done			    */
+
+.org	0x500
+
+.end
+

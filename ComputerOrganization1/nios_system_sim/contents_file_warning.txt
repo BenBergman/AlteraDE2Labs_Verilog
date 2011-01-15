@@ -1,0 +1,10 @@
+
+Warning: simulation may not function properly until valid contents files
+are created for the following memory modules:
+
+	onchip_memory2_0
+
+If this is a Nios II processor system, you can create valid contents files
+for these memories by building a software project using the Nios II IDE or
+the Nios II Command-Line Tools.  See the Nios II Software Developer's
+Handbook for more details.

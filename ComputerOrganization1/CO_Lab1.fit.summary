@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Nov 30 12:59:20 2010
+Quartus II Version : 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition
+Revision Name : CO_Lab1
+Top-level Entity Name : part1
+Family : Cyclone II
+Device : EP2C35F672C6
+Timing Models : Final
+Total logic elements : 1,177 / 33,216 ( 4 % )
+    Total combinational functions : 1,100 / 33,216 ( 3 % )
+    Dedicated logic registers : 555 / 33,216 ( 2 % )
+Total registers : 555
+Total pins : 2 / 475 ( < 1 % )
+Total virtual pins : 0
+Total memory bits : 271,360 / 483,840 ( 56 % )
+Embedded Multiplier 9-bit elements : 0 / 70 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

@@ -1,0 +1,75 @@
+module part1 (PIN_N2, PIN_G26);
+  input PIN_N2, PIN_G26;
+
+  //nios_system CPU (PIN_N2, DMAtS, DMB, DMD, DMR, DMWR, DMW, DMWD, IMAtS, IMR, JDMRD, JDMRR, PIN_G26, DMGJDM, DMQRJDM, DMRDVJDM, DMRJDM, IMGJDM, IMQRJDM, IMRDVJDM, JDMA, JDMBT, JDMB, JDMCS, JDMDA, JDMRDfSA, JDMRn, JDMRRfSA, JDMW, JDMWD, JDMEX)
+  nios_system CPU0 (
+                      // inputs:
+                       clk,
+                       cpu_0_data_master_address_to_slave,
+                       cpu_0_data_master_byteenable,
+                       cpu_0_data_master_debugaccess,
+                       cpu_0_data_master_read,
+                       cpu_0_data_master_waitrequest,
+                       cpu_0_data_master_write,
+                       cpu_0_data_master_writedata,
+                       cpu_0_instruction_master_address_to_slave,
+                       cpu_0_instruction_master_read,
+                       cpu_0_jtag_debug_module_readdata,
+                       cpu_0_jtag_debug_module_resetrequest,
+                       reset_n,
+
+                      // outputs:
+                       cpu_0_data_master_granted_cpu_0_jtag_debug_module,
+                       cpu_0_data_master_qualified_request_cpu_0_jtag_debug_module,
+                       cpu_0_data_master_read_data_valid_cpu_0_jtag_debug_module,
+                       cpu_0_data_master_requests_cpu_0_jtag_debug_module,
+                       cpu_0_instruction_master_granted_cpu_0_jtag_debug_module,
+                       cpu_0_instruction_master_qualified_request_cpu_0_jtag_debug_module,
+                       cpu_0_instruction_master_read_data_valid_cpu_0_jtag_debug_module,
+                       cpu_0_instruction_master_requests_cpu_0_jtag_debug_module,
+                       cpu_0_jtag_debug_module_address,
+                       cpu_0_jtag_debug_module_begintransfer,
+                       cpu_0_jtag_debug_module_byteenable,
+                       cpu_0_jtag_debug_module_chipselect,
+                       cpu_0_jtag_debug_module_debugaccess,
+                       cpu_0_jtag_debug_module_readdata_from_sa,
+                       cpu_0_jtag_debug_module_reset_n,
+                       cpu_0_jtag_debug_module_resetrequest_from_sa,
+                       cpu_0_jtag_debug_module_write,
+                       cpu_0_jtag_debug_module_writedata,
+                       d1_cpu_0_jtag_debug_module_end_xfer
+                    );
+
+  wire           cpu_0_data_master_granted_cpu_0_jtag_debug_module;
+  wire           cpu_0_data_master_qualified_request_cpu_0_jtag_debug_module;
+  wire           cpu_0_data_master_read_data_valid_cpu_0_jtag_debug_module;
+  wire           cpu_0_data_master_requests_cpu_0_jtag_debug_module;
+  wire           cpu_0_instruction_master_granted_cpu_0_jtag_debug_module;
+  wire           cpu_0_instruction_master_qualified_request_cpu_0_jtag_debug_module;
+  wire           cpu_0_instruction_master_read_data_valid_cpu_0_jtag_debug_module;
+  wire           cpu_0_instruction_master_requests_cpu_0_jtag_debug_module;
+  wire  [  8: 0] cpu_0_jtag_debug_module_address;
+  wire           cpu_0_jtag_debug_module_begintransfer;
+  wire  [  3: 0] cpu_0_jtag_debug_module_byteenable;
+  wire           cpu_0_jtag_debug_module_chipselect;
+  wire           cpu_0_jtag_debug_module_debugaccess;
+  wire  [ 31: 0] cpu_0_jtag_debug_module_readdata_from_sa;
+  wire           cpu_0_jtag_debug_module_reset_n;
+  wire           cpu_0_jtag_debug_module_resetrequest_from_sa;
+  wire           cpu_0_jtag_debug_module_write;
+  wire  [ 31: 0] cpu_0_jtag_debug_module_writedata;
+  wire           d1_cpu_0_jtag_debug_module_end_xfer;
+  wire            clk;
+  wire   [ 16: 0] cpu_0_data_master_address_to_slave;
+  wire   [  3: 0] cpu_0_data_master_byteenable;
+  wire            cpu_0_data_master_debugaccess;
+  wire            cpu_0_data_master_read;
+  wire            cpu_0_data_master_waitrequest;
+  wire            cpu_0_data_master_write;
+  wire   [ 31: 0] cpu_0_data_master_writedata;
+  wire   [ 16: 0] cpu_0_instruction_master_address_to_slave;
+  wire            cpu_0_instruction_master_read;
+  wire   [ 31: 0] cpu_0_jtag_debug_module_readdata;
+  wire            cpu_0_jtag_debug_module_resetrequest;
+  wire            reset_n;
+endmodule

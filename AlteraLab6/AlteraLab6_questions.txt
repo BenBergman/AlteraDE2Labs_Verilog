@@ -1,0 +1,36 @@
+Part1
+fmax: 215.47 MHz
+longest path (delay): 3.808 ns
+
+Part2
+fmax: 204.12 MHz
+delay: 4.049 ns
+
+Part3
+1. To do: referencing data sheet (pg 15?), describe adder
+2. fmax: 277.39 MHz
+   delay: 2.710 ns
+   this is much faster than the solution for part 1
+
+Part4
+1. To do: referencing data sheet (pg 15?), describe adder
+2. fmax: 209.82 MHz
+   delay: 3.778 ns
+   this is marginally better than the solution to part 2
+
+Part6
+no fmax listed
+longest path: 25.329 ns
+
+Part7
+no fmax listed
+longest path: 15.842ns
+logic elements: 57
+
+Part8
+when testing timing for 220 MHz, it tells me the max freq is 146.31 MHz and that 352 paths failed
+To do: pipelining
+
+Part9
+To do: 
+
