@@ -4,4 +4,6 @@ I have only included the Verilog source files rather than the entire project dir
 
 The computer organization labs might be a little jumbled up. Around the time I started working on them Altera changed the files they had posted online, so I have done a small amout of work from both sets.
 
-If anyone has any questions or comments (eg a critical file is missing), you can email me at questions@benbergman.ca and I will try to respond in a timely manner.
+If anyone has any questions or comments (eg a critical file is missing), you can email me at questions@benbergman.ca and I will try to respond in a timely manner. If you found these labs helpful and were able to complete sections that I am missing, please consider submitting a pull request. I regularly get requests for missing sections, so it would be very much appreciated.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/BenBergman/alterade2labs_verilog/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
